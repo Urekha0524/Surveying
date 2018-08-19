@@ -1,0 +1,154 @@
+<html>
+<head>
+<link href="style2.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div id="new">
+<h1>Civil Engineering</h1>
+<blockquote></blockquote>
+</div>
+<div id="new3">
+<ul id="menu">
+ <li id="item"><a href="index.html">Introduction</a></li>
+ <li id="item"><a href="chain.html">Chain Surveying</a></li>
+ <li id="item"><a href="compass.html">Compass Surveying</a></li>
+ <li id="item"><a href="levelling.html">Levelling</a></li>
+ <li id="item"><a href="areas.html">Areas</a></li>
+ <li id="item"><a href="#">Volumes</a></li>
+ <li id="item"><a href="contour.html">Contouring</a></li>
+ <li id="item"><a href="plane table.html">plane table Surveying</a></li>
+ <li id="item"><a href="minor.html">Minor</a></li>
+ <li id="item"><a href="theodolite.html">Theodolite</a></li>
+  </ul>
+ </div>
+<div id="new2">
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#formula1">Formula for calculation of area</a></li>
+<li><a href="#trapezoidal">Calculation of volume using trapezoidal Rule</a></li>
+<li><a href="#Prismoidal">Calculation of volume using Prismoidal Rule</a></li>
+</ul>
+</div>
+
+<div id="new1">
+<div id="intro">
+<h2>Computation of Volume</h2>
+<p>For computation of the volume of earth work,the sectional areas of the cross-section
+which are taken transverse to the longitudinal section during profile levelling are first
+calculated.</p>
+<p>After calculation of cross-sectional areas,the volume of earth work is calculated
+by :</p>
+<div id="new5">
+<ol>
+<li>the trapezoidal(or averagee end area) rule,and</li>
+<li>the prismoidal rule.</li>
+</ol>
+</div>
+<dl>
+<dt><h3>Notes :</h3></dt>
+<dd>
+<ol>
+<li>The prismoidal rule gives the correct volume directly.</li>
+<li>The trapezoidal rule does not give the correct volume.Prismodal correction
+should be applied for this purpose.This correction is always subtractive.</li>
+<li>Cutting is denoted by a positive sign and filling by a negative sign.</li>
+</ol>
+</dd>
+</dl>
+</div>
+<div id="formula1">
+<h3>Formulae For Calculation Of cross-sectional area :</h3>
+<dl>
+<ol>
+<dt><li><h4>Level Section</h4></li></dt>
+<dl>
+<p>When the ground is level along the transverse direction :</p>
+<div id="new6">
+<img src="images/levelsection.jpg"/>
+</div>
+<div id="new1" style="color:black;text-align:center;background-color:white;font-size:23px;margin:10px auto;">
+<blockquote><var>Cross-sectional area = {(b+b+2sh)/2}&#215;h</var></blockquote>
+<blockquote><var>= (b+sh)&#215;h</var></blockquote></blockquote>
+</div>
+</dl>
+<dt><li><h4>Two-Level Section</h4></li></dt>
+<dl>
+<p>When the ground surface has a traverse slope:</p>
+<div id="new6">
+<img src="images/twolevelsection.jpg"/>
+</div>
+<div style="margin:10px;">
+<a href="http://ecoursesonline.iasri.res.in/mod/page/view.php?id=128295" target="_blank">Click Here for problems.</a>
+</div>
+</dl>
+<div id="new1" style="background-color:white;text-align:center;color:black;font-size:23px;margin:10px auto">
+<var>Area = &half;&#215;[{(b/2s)+h}(b<sub>1</sub>+b<sub>2</sub>)-(b<sup>2</sup>/2s)]
+</var>
+</div>
+<dt><li><h4>Three-level Section :</h4></li></dt>
+<dl>
+<p>When the traverse slope is not uniform:</p>
+ <div id="new6" >
+  <img src="images/twolevel.jpg" />
+ </div>
+ <div id="new1" style="background-color:white;text-align:center;color:black;font-size:23px;margin:auto;margin-top:10px">
+<var>Area = ({h/2(b<sub>1</sub>+b<sub>2</sub>)}+{b/4(h<sub>1</sub>+h<sub>2</sub>)})</var>
+</div>
+</dl>
+<dt><li><h4>Side-Hill Two-Level Section:</h4></li></dt>
+<dl>
+<p>When the ground surface has a traverse slope,but the slope of the ground cuts the
+formation level partly in cutting and partly in filling,the following method is adopted.</p>
+ <div id="new6" >
+  <img src="images/threelevel.jpg" />
+  <pre>
+  
+  </pre>
+  <img src="images/side1.jpg"/>
+   <pre>
+  
+  </pre>
+  <img src="images/side2.jpg"/>
+ </div>
+ 
+</dl>
+</ol>
+</div>
+<div id="formula2">
+<h3>Formula for calculation of volume :</h3>
+<div id="new6">
+<img src="images/formula.jpg"/>
+</div>
+<ol type="A">
+<li><h4>Trapezoidal Rule(Average End Area Rule):</h4></li>
+<div id="new1" style="background-color:white;text-align:center;color:black;font-size:23px;margin:10px auto">
+<var>Volume(cutting or filling), V =D/2{A<sub>1</sub>+A<sub>n</sub>+2(A<sub>2</sub>+A<sub>3</sub>+A<sub>4</sub>......+A<sub>n-1</sub>)}</var>
+
+<var><br><br>i.e., volume = common distance/2 {area of 1st section + area of last section + 2(sum of area of other sections)}</var>
+</div>
+<li><h4>Prismoidal Formula :</h4></li>
+<div id="new1" style="background-color:white;text-align:center;color:black;font-size:23px;margin:10px auto">
+<var>Volume(cutting or filling), V =D/3{A<sub>1</sub>+A<sub>n</sub>+4(A<sub>2</sub>+A<sub>4</sub>......+A<sub>n-1</sub>)+2(A<sub>3</sub>+A<sub>5</sub>+A<sub>7</sub>.....+A<sub>n-2</sub>)}</var>
+
+<var><br><br>i.e., volume = common distance/3 {area of 1st section + area of last section + 4(sum of area of even sections)+2(sum of area of odd sections)}</var>
+</div>
+</ol>
+</div>
+<div align="center">
+<a href="https://www.slideshare.net/mobile/gauravhtandon1/volume-28486423">Click here for further references.</a>
+</div>
+</div>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
